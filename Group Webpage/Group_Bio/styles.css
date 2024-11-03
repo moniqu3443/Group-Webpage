@@ -8,7 +8,8 @@ body {
 
 /* Header section styling */
 header {
-    background: #333;
+    /* ORIGINAL background: #333 */
+    background: #410075;
     color: #fff;
     padding: 10px 0;
     text-align: center;
@@ -50,10 +51,10 @@ header nav button:hover {
 
 /* Card styling for individual team bios */
 .card {
-    background: white;
+    background: #f7ebbe /* originally white */;
     border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    margin: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    margin: 5px;
     padding: 20px;
     flex: 1 1 calc(30% - 40px);
     text-align: center;
@@ -61,7 +62,7 @@ header nav button:hover {
 }
 
 .card:hover {
-    transform: scale(1.05);
+    transform: scale(1.08);
 }
 
 h2 {
@@ -79,12 +80,12 @@ h2 {
 .mood {
     display: none;
     margin-top: 10px;
-    color: #555;
+    color: #111;
 }
 
 /* Button styling */
 button {
-    background: #007BFF;
+    background: #7a1515 /* ORIGINAL #007BFF */;
     color: white;
     border: none;
     padding: 10px 15px;
@@ -93,5 +94,5 @@ button {
 }
 
 button:hover {
-    background: #0056b3;
+    background: #9e1b1b /* ORIGINAL #0056b3 */;
 }

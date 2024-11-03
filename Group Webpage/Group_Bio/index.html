@@ -4,7 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Team Bio</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-image: url("img/charlotte.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+        }
+    </style>
 </head>
 <body>
 
@@ -37,7 +45,7 @@
         <h2>Aaron Glenn</h2>
         <p>Backend Developer</p>
         <button onclick="toggleBio('bio2')">Show Bio</button>
-        <p id="bio2" class="bio">Aaron is a Software Engineer major who moved from Phoenix to Charlotte after far too many years in the desert.</p>
+        <p id="bio2" class="bio" style="background-color:#56027a; color:#c4c4c4">Aaron is a Software Engineer major who moved from Phoenix to Charlotte after far too many years in the desert.</p>
         <button onclick="toggleMood('mood2')">Mood Board</button>
         <div id="mood2" class="mood"> <img src="img/todd.png" alt="Todd Howard" class="todd" width="200" height="120">
             <br>Main resource: www.google.com</div>

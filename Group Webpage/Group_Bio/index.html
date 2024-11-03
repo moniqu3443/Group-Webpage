@@ -4,7 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Team Bio</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-image: url("img/charlotte.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+        }
+    </style>
 </head>
 <body>
 
@@ -37,7 +45,7 @@
         <h2>Aaron Glenn</h2>
         <p>Backend Developer</p>
         <button onclick="toggleBio('bio2')">Show Bio</button>
-        <p id="bio2" class="bio">Aaron is a Software Engineer major who moved from Phoenix to Charlotte after far too many years in the desert.</p>
+        <p id="bio2" class="bio" style="background-color:#56027a; color:#c4c4c4">Aaron is a Software Engineer major who moved from Phoenix to Charlotte after far too many years in the desert.</p>
         <button onclick="toggleMood('mood2')">Mood Board</button>
         <div id="mood2" class="mood"> <img src="img/todd.png" alt="Todd Howard" class="todd" width="200" height="120">
             <br>Main resource: www.google.com</div>
@@ -57,21 +65,23 @@
     </div>
     </div>
     <div class="card">
+        <img src="img/leo.png" alt="leowebpage" class="blueprint">
         <h2>Leo Barguti</h2>
         <p>UI/UX Designer</p>
         <button onclick="toggleBio('bio4')">Show Bio</button>
-        <p id="bio4" class="bio">Leo is a UI/UX designer with a passion for creating user-friendly interfaces.</p>
+        <p id="bio4" class="bio">Leo is a UI/UX designer at UNCC who absolutely despises coding so he made a career out of it</p>
         <button onclick="toggleMood('mood4')">Mood Board</button>
         <div id="mood4" class="mood">ENTER MOODBOARD HERE</div>
     </div>
     </div>
     <div class="card">
+        <img src="img/zackwebpage.webp" alt="zackwebpage" style="width: 150px; height: auto;">
         <h2>Zack Campbell</h2>
         <p>UI/UX Designer</p>
         <button onclick="toggleBio('bio5')">Show Bio</button>
-        <p id="bio5" class="bio">Zack is a UI/UX designer with a passion for creating user-friendly interfaces.</p>
+        <p id="bio5" class="bio">Zack is a Computer Science student at UNCC which specializes in Information Technology.</p>
         <button onclick="toggleMood('mood5')">Mood Board</button>
-        <div id="mood5" class="mood">ENTER MOODBOARD HERE</div>
+        <div id="mood5" class="mood"> <img src="img/zackmoodboard.jpg" alt="zackmoodboard" style="width: 150px; height: auto;"> </div>
     </div>
 </div>
 
